@@ -63,6 +63,28 @@ require('style!css!./index.css')
 ```
 
 同样 loaders也可以使用配置的方式，简化我们的工程，达到统一管理的目的。
+
+```
+$ webpack --config XXX.js   //使用另一份配置文件（比如webpack.config2.js）来打包
+
+$ webpack --watch   //监听变动并自动打包
+
+$ webpack -p    //压缩混淆脚本，这个非常非常重要！
+
+$ webpack -d    //生成map映射文件，告知哪些模块被最终打包到哪里了
+```
+entry: 定义整个编译过程的起点
+
+output: 定义整个编译过程的终点
+
+module: 定义模块module的处理方式
+
+plugin 对编译完成后的内容进行二度加工
+
+resolve.alias 定义模块的别名
+
+## 独立打包样式文件
+
 ## 插件的介绍
 webpack提供插件机制，可以对每次的build结果进行助理，配置plugin参数就可以。
 

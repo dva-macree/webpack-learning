@@ -1,4 +1,4 @@
-require('style!css!./index.css')
-// require('style!css!less!./main.less')
-require('url!./webpack.png')
+require('./index.css')
+require('./main.less')
+// require('./webpack.png')
 alert('hello world');

@@ -1,0 +1,83 @@
+* {
+    -webkit-tap-highlight-color: rgba(255,0,0,0);
+}
+*{margin:0;padding:0;list-style:none;border:0;}
+html, div, ul, li {
+    padding: 0;
+    margin: 0;
+}
+
+
+section {
+    background-color: #fff;
+    padding: 0 0.6rem;
+    margin-bottom: 0.9rem;
+}
+
+a,.hero {
+    color: #222;
+}
+a,a:hover,a:focus,a:active{
+ text-decoration: none;
+}
+
+article {
+    background-color: #efeff4;
+    display: none;
+}
+
+.page.myFinance article{
+    display: none;
+}
+
+section .min {
+    font-size: 1.4rem;
+    color: #585c64;
+}
+.white {
+    color: #fff
+}
+.black {
+    color: #000
+}
+.red {
+    color: #ff6b50
+}
+.pink {
+    color: #fa719f
+}
+.blue {
+    color: #047fe5
+}
+.yellow {
+    color: #ffa453
+}
+.orange {
+    color: #FF7800
+}
+.gray {
+    color: #aaa
+}
+
+/* 清除浮动 */
+.clear {
+    display: block;
+    clear: both;
+    overflow: hidden;
+    height: 0;
+    line-height: 0;
+    font-size: 0
+}
+.clearfix:after {
+    content: " ";
+    visibility: hidden;
+    display: block;
+    clear: both;
+    height: 0;
+    font-size: 0
+}
+.clearfix {
+    *zoom: 1
+}
+
+
